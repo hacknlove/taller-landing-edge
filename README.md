@@ -183,3 +183,5 @@ import Layout from '../layouts/Layout.astro';
     <Background />
 </Layout>
 ```
+
+La idea es añadir un componente "vacío", e ir iterando sobre él, viendo los cambios

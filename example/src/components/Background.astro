@@ -1,3 +1,17 @@
+---
+import src from '../../assets/paraisu.jpeg';
+import { Image } from 'astro:assets';
+---
 <div>
-    ES EL BACKGROUND
+    <Image src={src} alt="Paraisu" />
 </div>
+<style>
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+</style>
