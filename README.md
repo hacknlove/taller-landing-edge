@@ -108,7 +108,7 @@ En este caso está importando dos componentes.
 
 * El tag `style` solo se aplicará a la página o componente en el que se encuentre.
 
-Si abrimos el archivo `layouts/Layout.astro` podemos ver cómo la propiedad title que se pasa en `index.astro` como `<Layout title="">...` se obtiene usando la variable global `Astro` como `const { title } = Astro.props;` (`const title = Atro.props.title`)
+Si abrimos el archivo `layouts/Layout.astro` podemos ver cómo la propiedad title que se pasa en `index.astro` como `<Layout title="">...` se obtiene usando la variable global `Astro` como `const { title } = Astro.props;` (`const title = Astro.props.title`)
 
 Vemos también que el contenido que le pasamos a `Layout` se renderiza en el tag `slot`.
 
@@ -152,7 +152,7 @@ Ve a `pages/index.astro` y deja solo el layout.
 
 ```astro
 ---
-import Card from '../components/Card.astro';
+import Layout from '../components/Layout.astro';
 ---
 
 <Layout title="Paraisu to Astro.">
